@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A7E534F3-762C-493A-BD0F-555A7C9DC237}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5822CE1E-DCE6-4CD1-88F0-F21F3BC6C320}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{59AD6C58-3371-46F7-906C-2AFE6412327A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HQL.KLNC.Web", "Presentation\HQL.KLNC.Web\HQL.KLNC.Web.csproj", "{D773F324-496C-44D5-9A9B-7CE8ECD70BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D773F324-496C-44D5-9A9B-7CE8ECD70BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D773F324-496C-44D5-9A9B-7CE8ECD70BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D773F324-496C-44D5-9A9B-7CE8ECD70BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D773F324-496C-44D5-9A9B-7CE8ECD70BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D773F324-496C-44D5-9A9B-7CE8ECD70BCE} = {A7E534F3-762C-493A-BD0F-555A7C9DC237}
+	EndGlobalSection
+EndGlobal
